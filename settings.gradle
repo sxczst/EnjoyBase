@@ -1,0 +1,2 @@
+rootProject.name='EnjoyBase'
+include ':app'

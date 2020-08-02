@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/ic_launcher"
+    tools:context=".WelcomeActivity" />
+<!--直接引用背景需要考虑一下是否会造成内存溢出，只会跟引用的图片的尺寸大小有关-->
+<!--直接使用一个ImageView控件，因为他们都是解析反射实例化出来的，为了性能的考虑，减少系统源码的压力-->
